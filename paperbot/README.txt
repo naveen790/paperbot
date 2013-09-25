@@ -13,3 +13,4 @@ In order to set it up on your own follow the instructions given below:
 
 4) Now go to any web browser and go to http://yourserver.com/paper.html and you can run it.
  
+Note: Replace yourserver.com with the name of your server in the code.
