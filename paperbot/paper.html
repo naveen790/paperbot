@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>PAPERBOT</title>
+  <meta name="description" content="Naveen Natarajan Website" />
+  <meta name="keywords" content="Naveen Natarajan, Webpage and details" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<BODY>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+         <h1>PAPERBOT</h1>
+         <h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Designed by P Aditya Rao & Naveen Natarajan</h2>
+        </div>
+      </div>
+    </div>
+
+<div id="site_content">
+   <div class="sidebar">
+    <img style="width: 220px; height: 220px;" alt="me" src="paperbot.jpg"><br>
+    <font size="4"><b><i> E-Mail :</i> </b> <br></font>
+    <font size="3">&nbsp;&nbsp;&nbsp;<b> nnatara2</b>@<b>jhu.edu</b></font>&nbsp;&nbsp;&nbsp;<a href="mailto:nnatara2@jhu.edu"><img src="mail.jpg" height="20" width="20"></a><br>
+    <font size="3">&nbsp;&nbsp;&nbsp;<b> adityarao</b>@<b>jhu.edu</b></font>&nbsp;&nbsp;&nbsp;<a href="mailto:adityarao@jhu.edu"><img src="mail.jpg" height="20" width="15"></a><br>
+
+   </div>
+   <div id="content">
+
+     <strong><em><span style="font-size:20px">WELCOME TO PAPERBOT...</span></em></strong>
+     <BR><BR>
+     <p>This is a bot which helps you to find publications/journals. You can search by either giving the title/keyword or the name of the author or both. </p>
+     
+     <em>This is the final course project for <a href="http://www.cs.jhu.edu/~yarowsky/cs466.html">600.466 Information Retreival & Web Agents</a>
+     <BR><br>
+     <em> This is designed by Aditya Rao and Naveen Natarajan. Our email-id's are on the right column.
+     <BR><BR>
+
+     <strong><em><span style="font-size:15px">Enter any one or both of the following text fields and click the submit button. </span></em></strong> <br><br>
+
+     <strong>Enter Title/Keyword</strong><br>
+
+     <FORM METHOD="GET" ACTION="cgi-bin/paperbot.py">
+
+     <input type = "text" name="title"  onfocus="if(this.value==this.defaultValue)this.value=''"    
+      onblur="if(this.value=='')this.value=this.defaultValue" value="Enter Title/Keyword Here"  size=50><br><br>
+
+
+      <strong>Enter Author Name</strong><br>
+
+
+      <input type = "text" name="author"  onfocus="if(this.value==this.defaultValue)this.value=''"    
+       onblur="if(this.value=='')this.value=this.defaultValue" value="Enter Author Name Here" size=50><br><br>
+
+
+      <INPUT TYPE="SUBMIT" VALUE="Submit">
+      </form>
+   </div>
+</div>
+</BODY>
+</HTML>
