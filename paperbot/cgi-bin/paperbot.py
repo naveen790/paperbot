@@ -105,7 +105,7 @@ print "<font size =\"3\" face=\"verdana\" color=\"blue\" align = \"center\"> Res
 
 if query_url == "" and author_url == "":
    print "ERROR!!!!!!!!! \n You should enter either the Paper Title/Keyword or the Author\n\n Both the fields are blank."
-   print "<META http-equiv=\"refresh\" content=\"0;URL=http://cs.jhu.edu/~nnatara2/paper.html\">"
+   print "<META http-equiv=\"refresh\" content=\"0;URL=http://yourserver.com/paper.html\">"
 elif query_url != "" and author_url == "":
    print "<font size =\"3\" face=\"verdana\" color=\"blue\" align = \"center\"> query :" + query +"</font>"
    flag_weight = 1
@@ -363,7 +363,7 @@ i = 0
 if len(papers_case) == 0 :
     print "<h2> No Results Found</h3><br>"
     print "<h2> Use different search terms </h3>"
-    print "<META http-equiv=\"refresh\" content=\"3;URL=http://cs.jhu.edu/~nnatara2/paper.html\">"
+    print "<META http-equiv=\"refresh\" content=\"3;URL=http://yourserver.com/paper.html\">"
 
 while i < 10 and i<len(papers_case):
     paper = papers_case.get(sorted_x[i][0])
