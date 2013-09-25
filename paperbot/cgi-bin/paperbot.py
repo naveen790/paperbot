@@ -6,8 +6,6 @@
 #############################################################################
 ## 	PaperBot- a distributed information retreival engine 		   ##
 ##									   ##
-##	adityarao@jhu.edu & nnatara2@jhu.edu				   ##
-##									   ##	
 #############################################################################
 
 import cgitb
