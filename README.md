@@ -1,1 +1,2 @@
-PaperBot is a metasearch engine that blends the top web search results from Google, Microsoft and Citeseer.
+PaperBot is a simple python webcrawler metasearch engine that blends the top web search results from Google Scholar,
+Microsoft Academic and Citeseer.
